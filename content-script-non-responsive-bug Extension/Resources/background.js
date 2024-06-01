@@ -1,6 +1,13 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
+async function fetchRandomJSONData() {
+  const response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
 
-    if (request.greeting === "hello")
-        sendResponse({ farewell: "goodbye" });
-});
+  return await response.json();
+}
+
+function handleMessage() {
+  console.log(new Date().toISOString());
+
+  return fetchRandomJSONData();
+}
+
+browser.runtime.onMessage.addListener(handleMessage);

@@ -1,7 +1,8 @@
-browser.runtime.sendMessage({ greeting: "hello" }).then((response) => {
-    console.log("Received response: ", response);
-});
+async function sendMessageAndHandleResponse() {
+    console.log(new Date().toISOString());
+    const randomJSONData = await chrome.runtime.sendMessage("Ping");
 
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-});
+    console.log({ randomJSONData });
+}
+
+setInterval(sendMessageAndHandleResponse, 1000);

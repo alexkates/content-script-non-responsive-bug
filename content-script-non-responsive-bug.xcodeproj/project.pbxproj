@@ -22,9 +22,6 @@
 		FAC8036E2C076AE200EE2E6B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC8036D2C076AE200EE2E6B /* manifest.json */; };
 		FAC803702C076AE200EE2E6B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FAC8036F2C076AE200EE2E6B /* background.js */; };
 		FAC803722C076AE200EE2E6B /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FAC803712C076AE200EE2E6B /* content.js */; };
-		FAC803742C076AE200EE2E6B /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FAC803732C076AE200EE2E6B /* popup.html */; };
-		FAC803762C076AE200EE2E6B /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FAC803752C076AE200EE2E6B /* popup.css */; };
-		FAC803782C076AE200EE2E6B /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FAC803772C076AE200EE2E6B /* popup.js */; };
 		FAC8037A2C076AE200EE2E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC8035B2C076AE200EE2E6B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -71,9 +68,6 @@
 		FAC8036D2C076AE200EE2E6B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		FAC8036F2C076AE200EE2E6B /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		FAC803712C076AE200EE2E6B /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		FAC803732C076AE200EE2E6B /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		FAC803752C076AE200EE2E6B /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		FAC803772C076AE200EE2E6B /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		FAC803792C076AE200EE2E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,9 +150,6 @@
 				FAC8036D2C076AE200EE2E6B /* manifest.json */,
 				FAC8036F2C076AE200EE2E6B /* background.js */,
 				FAC803712C076AE200EE2E6B /* content.js */,
-				FAC803732C076AE200EE2E6B /* popup.html */,
-				FAC803752C076AE200EE2E6B /* popup.css */,
-				FAC803772C076AE200EE2E6B /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -258,13 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC803702C076AE200EE2E6B /* background.js in Resources */,
-				FAC803762C076AE200EE2E6B /* popup.css in Resources */,
-				FAC803742C076AE200EE2E6B /* popup.html in Resources */,
 				FAC8036C2C076AE200EE2E6B /* images in Resources */,
 				FAC8036E2C076AE200EE2E6B /* manifest.json in Resources */,
 				FAC8036A2C076AE200EE2E6B /* _locales in Resources */,
 				FAC803722C076AE200EE2E6B /* content.js in Resources */,
-				FAC803782C076AE200EE2E6B /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
