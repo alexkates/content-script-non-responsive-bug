@@ -1,6 +1,7 @@
 # Content Script Messaging Background Script Bug
 
 A minimal-reproducible example of a Safari Web Extension bug I've run into where the non-persistant background script seems to crash after 30 seconds even when the content script is messaging it.
+[Apple Developer Forums Post](https://developer.apple.com/forums/thread/756309)
 
 ## Steps to Reproduce
 
