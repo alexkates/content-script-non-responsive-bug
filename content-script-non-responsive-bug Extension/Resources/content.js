@@ -1,6 +1,6 @@
 async function sendMessageAndHandleResponse() {
     console.log(new Date().toISOString());
-    const randomJSONData = await chrome.runtime.sendMessage("Ping");
+    const randomJSONData = await browser.runtime.sendMessage("Ping");
 
     console.log({ randomJSONData });
 }

@@ -4,7 +4,7 @@ async function fetchRandomJSONData() {
   return await response.json();
 }
 
-function handleMessage() {
+function handleMessage(request, sender, sendResponse) {
   console.log(new Date().toISOString());
 
   return fetchRandomJSONData();
