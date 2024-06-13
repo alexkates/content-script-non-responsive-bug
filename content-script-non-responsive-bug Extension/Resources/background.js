@@ -11,3 +11,10 @@ function handleMessage(request, sender, sendResponse) {
 }
 
 browser.runtime.onMessage.addListener(handleMessage);
+
+function handleActivated(activeInfo) {
+  console.log(`Tab ${activeInfo.tabId} was activated`);
+  browser.tabs.sendMessage(activeInfo.tabId, "Tab Activated!");
+}
+
+browser.tabs.onActivated.addListener(handleActivated);

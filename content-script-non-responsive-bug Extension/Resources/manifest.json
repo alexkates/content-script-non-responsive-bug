@@ -12,10 +12,7 @@
     "512": "images/icon-512.png"
   },
   "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": false,
+    "service_worker": "background.js",
     "type": "module"
   },
   "content_scripts": [
